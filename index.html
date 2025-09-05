@@ -13,10 +13,12 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
       <div class="container">
         <a class="navbar-brand" href="#">DevHub</a>
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav me-auto">
             <li class="nav-item">
@@ -24,59 +26,71 @@
                 <i class="bi bi-house-door"></i> Home
               </a>
             </li>
+
             <li class="nav-item">
               <a class="nav-link" href="#">
                 <i class="bi bi-compass"></i> Discover
               </a>
             </li>
+
             <li class="nav-item">
               <a class="nav-link" href="#">
                 <i class="bi bi-chat-dots"></i> Messages <span class="badge bg-danger">3</span>
               </a>
             </li>
+
           </ul>
           <form class="d-flex me-3">
             <input class="form-control me-2" type="search" placeholder="Search on DevHub" aria-label="Search">
             <button class="btn btn-outline-primary" type="submit"><i class="bi bi-search"></i></button>
           </form>
+
           <hr>
           <div class="dropdown">
             <button class="btn btn-primary dropdown-toggle d-block ms-auto" type="button" data-bs-toggle="dropdown"
               aria-expanded="false">
               <i class="bi bi-three-dots-vertical"></i> Options
             </button>
+
             <ul class="dropdown-menu dropdown-menu-end mt-3" aria-labelledby="profileDropdown">
               <li>
                 <a class="dropdown-item" href="#">
                   <i class="bi bi-person-circle"></i> My Account
                 </a>
               </li>
+
               <li>
                 <a class="dropdown-item" href="#">
                   <i class="bi bi-gear"></i> Settings and Privacy
                 </a>
               </li>
+
               <li>
                 <a class="dropdown-item" href="#">
                   <i class="bi bi-question-circle"></i> Help and Support
                 </a>
               </li>
+
               <li>
                 <hr class="dropdown-divider">
               </li>
+
               <li class="d-flex justify-content-between">
                 <a id="themeSwitcher" class="dropdown-item" href="#">
                   <i class="bi bi-moon-stars"></i> Switch theme
                 </a>
               </li>
+
               <li>
                 <hr class="dropdown-divider">
               </li>
+
               <li>
                 <a class="dropdown-item" href="#">
                   <i class="bi bi-door-open"></i> Logout
                 </a>
               </li>
+
             </ul>
           </div>
         </div>
@@ -242,6 +256,7 @@
                   </div>
                 </div>
               </div>
+
               <div class="carousel-item">
                 <!-- Placeholder -->
                 <div style="background-color: #aaa; display: grid; place-content: center; height: 10rem;">
@@ -252,6 +267,7 @@
                   </div>
                 </div>
               </div>
+
               <div class="carousel-item">
                 <!-- Placeholder -->
                 <div style="background-color: #999; display: grid; place-content: center; height: 10rem;">
@@ -272,20 +288,24 @@
         <div class="modal fade" id="postModal" tabindex="-1" aria-labelledby="postModalLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
+
               <div class="modal-header">
                 <h5 class="modal-title" id="postModalLabel">New Post</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
+
               <div class="modal-body">
                 <textarea id="writePostInput" class="form-control" rows="4" placeholder="Share something..."></textarea>
               </div>
+
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary">Publish Post</button>
               </div>
+
             </div>
           </div>
-      </div>
+        </div>
 
     <!--Footer-->
     <footer class="bg-body-tertiary text-center py-3 mt-4">
